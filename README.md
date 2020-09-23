@@ -39,7 +39,7 @@ Basically Nikons official RAW converter.
 
 Similar to ViewNX-i, but designed specifically for the processing of images in Nikon’s unique RAW (nef/nrw) formats. Used in combination with ViewNX-i, it offers a smooth imaging workflow from image selection to RAW processing.
 
-[Also, check out this comparison of Capture NX-D with ViewNX-i.](3)
+[Also, check out this comparison of Capture NX-D with ViewNX-i.][3]
 
 *Replaces Capture NX 2.*
 
@@ -82,7 +82,7 @@ Profiles are also being used in post-processing with applications like ViewNX-i 
 
 This software allows creating and editing of new profiles.
 
-More info on the topic can be found on [nikonusa.com](2). The default profiles are explained there, too.
+More info on the topic can be found on [nikonusa.com][2]. The default profiles are explained there, too.
 
 ### Wireless Transmitter Utility
 Use this application to adjust network settings and more for
