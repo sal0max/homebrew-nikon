@@ -5,6 +5,7 @@ If you found this repo, you probably know what this is. All current Nikon apps, 
 ## Currently available Nikon programs via this repo are
 | program                                 | cask name
 | --------------------------------------- | ---------
+| [Webcam Utility][nikon-8]               | `nikon-webcam-utility`
 | [Capture NX-D][nikon-6]                 | `capture-nx-d`
 | [ViewNX-i][nikon-4]                     | `viewnx-i`
 | [KeyMission 360/170 Utility][nikon-1]   | `keymission-360-170-utility`
@@ -27,6 +28,11 @@ Alternatively you can also do `brew install sal0max/nikon/<formula>`
 
 
 ## What do those programs do? Do I need them?
+
+### Webcam Utility
+Webcam Utility lets a Nikon camera be used as a webcam when connected to a computer via USB.
+The camera will function as a webcam when “Webcam Utility” is selected as an external camera in a web conferencing app.
+Supported cameras: Z 7, Z 6, Z 5, Z 50, D6, D850, D780, D500, D7500, and D5600
 
 ### Capture NX-D
 Basically Nikons official RAW converter.
@@ -105,3 +111,4 @@ Formerly called *WT-4 Setup Utility*.
 [nikon-5]: https://downloadcenter.nikonimglib.com/en/products/168/Wireless_Transmitter_Utility.html
 [nikon-6]: https://downloadcenter.nikonimglib.com/en/products/162/Capture_NX-D.html
 [nikon-7]: https://downloadcenter.nikonimglib.com/en/products/165/Camera_Control_Pro_2.html
+[nikon-8]: https://downloadcenter.nikonimglib.com/en/products/548/Webcam_Utility.html
