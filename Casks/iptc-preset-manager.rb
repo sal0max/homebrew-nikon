@@ -17,6 +17,6 @@ cask "iptc-preset-manager" do
 
   pkg "IPTCPresetManager.pkg"
 
-  uninstall :pkgutil => "jp.co.nikon.installer.IPTCPresetManager.main",
-            :delete  => "/Applications/Nikon Software/IPTC Preset Manager"
+  uninstall pkgutil: "jp.co.nikon.installer.IPTCPresetManager.main",
+            delete:  "/Applications/Nikon Software/IPTC Preset Manager"
 end

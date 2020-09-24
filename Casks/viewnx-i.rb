@@ -13,11 +13,12 @@ cask "viewnx-i" do
     end
   end
   name "ViewNX-i"
+  desc "Image browser and editor"
   homepage "https://downloadcenter.nikonimglib.com/en/products/220/ViewNX-i.html"
 
   pkg "Installer/NikonInstaller.pkg"
 
-  uninstall :pkgutil => [
+  uninstall pkgutil: [
     "jp.co.nikon.MovieEditor.main",
     "jp.co.nikon.ViewNX-i.main",
   ]

@@ -13,9 +13,10 @@ cask "keymission-360-170-utility" do
     end
   end
   name "KeyMission 360/170 Utility"
+  desc "Companion app to export/edit videos and adjust settings of KeyMission cameras"
   homepage "https://downloadcenter.nikonimglib.com/en/products/335/KeyMission_Utility_Installer.html"
 
   pkg "Installers/NikonInstaller.pkg"
 
-  uninstall :pkgutil => "jp.co.nikon.KeyMissionUtility.main"
+  uninstall pkgutil: "jp.co.nikon.KeyMissionUtility.main"
 end

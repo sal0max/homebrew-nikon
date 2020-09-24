@@ -13,10 +13,11 @@ cask "nikon-message-center-2" do
     end
   end
   name "Nikon Message Center 2"
+  desc "Checks for software and firmware updates"
   homepage "https://downloadcenter.nikonimglib.com/en/products/169/Nikon_Message_Center_2.html"
 
   pkg "Installers/NikonInstaller.pkg"
 
-  uninstall :pkgutil => "jp.co.nikon.MessageCenter2.main",
-            :delete  => "/Applications/Nikon Software/Nikon Message Center 2"
+  uninstall pkgutil: "jp.co.nikon.MessageCenter2.main",
+            delete:  "/Applications/Nikon Software/Nikon Message Center 2"
 end

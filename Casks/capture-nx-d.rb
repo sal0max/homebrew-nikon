@@ -13,9 +13,10 @@ cask "capture-nx-d" do
     end
   end
   name "Capture NX-D"
+  desc "Nikons official raw converter"
   homepage "https://downloadcenter.nikonimglib.com/en/products/162/Capture_NX-D.html"
 
   pkg "Installers/NikonInstaller.pkg"
 
-  uninstall :pkgutil => "jp.co.nikon.CaptureNX-D.main"
+  uninstall pkgutil: "jp.co.nikon.CaptureNX-D.main"
 end

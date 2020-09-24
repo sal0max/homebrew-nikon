@@ -13,12 +13,11 @@ cask "nikon-webcam-utility" do
     end
   end
   name "Nikon Webcam Utility"
+  desc "Lets supported Nikon cameras be used as a webcam via USB"
   homepage "https://downloadcenter.nikonimglib.com/en/products/548/Webcam_Utility.html"
-  desc "This program lets a Nikon camera be used as a webcam when connected to a computer via USB. The camera will function as a webcam when “Webcam Utility” is selected as an external camera in a web conferencing app.
-Supported cameras: Z 7, Z 6, Z 5, Z 50, D6, D850, D780, D500, D7500, and D5600"
 
   pkg "WebcamUtility.pkg"
 
-  uninstall :pkgutil => "jp.co.nikon.installer.WebcamUtility.main",
-            :delete  => "/Applications/Nikon Software/Webcam Utility"
+  uninstall pkgutil: "jp.co.nikon.installer.WebcamUtility.main",
+            delete:  "/Applications/Nikon Software/Webcam Utility"
 end

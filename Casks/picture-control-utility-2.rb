@@ -13,9 +13,10 @@ cask "picture-control-utility-2" do
     end
   end
   name "Picture Control Utility 2"
+  desc "Color profile editor"
   homepage "https://downloadcenter.nikonimglib.com/en/products/163/Picture_Control_Utility_2.html"
 
   pkg "Installers/NikonInstaller.pkg"
 
-  uninstall :pkgutil => "jp.co.nikon.installer.PictureControlUtility2.main"
+  uninstall pkgutil: "jp.co.nikon.installer.PictureControlUtility2.main"
 end
