@@ -1,10 +1,10 @@
 cask "viewnx-i" do
-  version "1.4.2"
-  sha256 "6871345221ddb5bce3fe015fa9aa1d4b1b93c53db9f75d107361ef7778608085"
+  version "1.4.4"
+  sha256 "576986851ddbe55c2a67769d9bfcc8ba2da4f978edc70456357378562cde6732"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/165.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/183.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten

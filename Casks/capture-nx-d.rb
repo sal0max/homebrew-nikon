@@ -1,10 +1,10 @@
 cask "capture-nx-d" do
-  version "1.6.2"
-  sha256 "dbc65eadbf9953e6ad5d872d2d1baf2a89a2b928405d7b8570bcceb37a18277d"
+  version "1.6.4"
+  sha256 "62c0cb3e8766729e28320043ac20df02e10827c0bce68fc7a46bdb5f685e0d0c"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/166.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/182.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten

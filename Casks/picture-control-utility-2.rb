@@ -1,10 +1,10 @@
 cask "picture-control-utility-2" do
-  version "2.4.5"
-  sha256 "dd2fb39cc029c6ce2bb753a6d2dd520a5c0df2feeb5a3633157f7495366d28cd"
+  version "2.4.7"
+  sha256 "823b8434ade3cbb19cf29a2c7ab499802369db7be48498b8bd0fb0033b86c809"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/163.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/180.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten
