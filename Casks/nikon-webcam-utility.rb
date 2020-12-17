@@ -1,10 +1,10 @@
 cask "nikon-webcam-utility" do
-  version "1.0.1"
-  sha256 "d305e8e52da50ad1ab8fd0aece95c9159eb2cca778a22fd5091d31ec3e06b4f7"
+  version "1.0.1_1"
+  sha256 "59d5eba98ab8fec975e10bff2c2d420bddd1a75bcd2d381d43686737233a2ca8"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/186.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/188.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten
