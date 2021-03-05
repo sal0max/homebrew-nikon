@@ -13,7 +13,7 @@ cask "nx-studio" do
     end
   end
   name "NX Studio"
-  desc "Suite for viewing, processing and editing images and videos"
+  desc "Nikons software suite for viewing, processing and editing images and videos"
   homepage "https://downloadcenter.nikonimglib.com/en/products/564/NX_Studio.html"
 
   pkg "Installer/NikonInstaller.pkg"
