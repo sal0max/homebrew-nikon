@@ -5,9 +5,10 @@ If you found this repo, you probably know what this is. All current Nikon apps, 
 ## Currently available Nikon programs via this repo are
 | program                                 | cask name
 | --------------------------------------- | ---------
-| [Webcam Utility][nikon-8]               | `nikon-webcam-utility`
+| [NX Studio][nikon-9]                    | `nx-studio`
 | [Capture NX-D][nikon-6]                 | `capture-nx-d`
 | [ViewNX-i][nikon-4]                     | `viewnx-i`
+| [Webcam Utility][nikon-8]               | `nikon-webcam-utility`
 | [KeyMission 360/170 Utility][nikon-1]   | `keymission-360-170-utility`
 | [Camera Control Pro 2][nikon-7]         | `camera-control-pro-2`
 | [Nikon Message Center 2][nikon-2]       | `nikon-message-center-2`
@@ -29,10 +30,12 @@ Alternatively you can also do `brew install sal0max/nikon/<formula>`
 
 ## What do those programs do? Do I need them?
 
-### Webcam Utility
-Webcam Utility lets a Nikon camera be used as a webcam when connected to a computer via USB.
-The camera will function as a webcam when “Webcam Utility” is selected as an external camera in a web conferencing app.
-Supported cameras: Z 7, Z 6, Z 5, Z 50, D6, D850, D780, D500, D7500, and D5600
+### NX Studio
+Nikons newest photo and video editing application.
+
+An image-processing suite designed for viewing, processing and editing images captured with Nikon digital cameras.
+
+**NX Studio integrates the image viewing features of ViewNX-i and processing/editing features of Capture NX-D into one piece of software.**
 
 ### Capture NX-D
 Basically Nikons official RAW converter.
@@ -50,6 +53,11 @@ It also supports map displays based on image location data and can be used with 
 The Software includes the ViewNX-Movie Editor for movie processing and editing. It ca be used for basic image editing of jpeg and tiff images and convert nef photos to other formats.
 
 *Replaces ViewNX 2.*
+
+### Webcam Utility
+Webcam Utility lets a Nikon camera be used as a webcam when connected to a computer via USB.
+The camera will function as a webcam when “Webcam Utility” is selected as an external camera in a web conferencing app.
+Supported cameras: Z 7, Z 6, Z 5, Z 50, D6, D850, D780, D500, D7500, and D5600
 
 ### KeyMission 360/170 Utility
 A companion app for the KeyMission 360 and KeyMission 170 cameras.
@@ -112,3 +120,4 @@ Formerly called *WT-4 Setup Utility*.
 [nikon-6]: https://downloadcenter.nikonimglib.com/en/products/162/Capture_NX-D.html
 [nikon-7]: https://downloadcenter.nikonimglib.com/en/products/165/Camera_Control_Pro_2.html
 [nikon-8]: https://downloadcenter.nikonimglib.com/en/products/548/Webcam_Utility.html
+[nikon-9]: https://www.nikonusa.com/en/Nikon-Products/Imaging-Software/nx-studio.page
