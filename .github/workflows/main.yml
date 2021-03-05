@@ -16,4 +16,4 @@ jobs:
         run: |
           set -e
           brew update
-          brew test-bot
+          brew test-bot --tap sal0max/nikon --test-default-formula
