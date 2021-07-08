@@ -1,6 +1,6 @@
 cask "viewnx-i" do
   version "1.4.5"
-  sha256 "bf50551153c4cec53e9e352560a5d638826a18fd92fc66fbdc23191b4374ed3a"
+  sha256 "b52d6bc7227fa4da9a5be5c9ffb1e61141c9a2b750ecb79b82c056990bc147cb"
 
   url do
     require "open-uri"
