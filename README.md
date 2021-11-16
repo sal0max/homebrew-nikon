@@ -8,6 +8,7 @@ If you found this repo, you probably know what this is. All current Nikon apps, 
 | [NX Studio][nikon-9]                    | `nx-studio`
 | [Capture NX-D][nikon-6]                 | `capture-nx-d`
 | [ViewNX-i][nikon-4]                     | `viewnx-i`
+| [NX Tether][nikon-10]                   | `nx-tether`
 | [Webcam Utility][nikon-8]               | `nikon-webcam-utility`
 | [KeyMission 360/170 Utility][nikon-1]   | `keymission-360-170-utility`
 | [Camera Control Pro 2][nikon-7]         | `camera-control-pro-2`
@@ -54,10 +55,15 @@ The Software includes the ViewNX-Movie Editor for movie processing and editing. 
 
 *Replaces ViewNX 2.*
 
+### NX Tether
+NX Tether is a simple, streamlined tethering shooting utility for compatible Nikon cameras. Transfer every shot you take to a laptop or computer automatically in real-time. Import shots into your favorite editing software in the moment. Monitor and adjust key camera settings—all in a free software.
+Supported cameras: all Z series cameras, D780 and D6 DSLRs
+
+
 ### Webcam Utility
 Webcam Utility lets a Nikon camera be used as a webcam when connected to a computer via USB.
 The camera will function as a webcam when “Webcam Utility” is selected as an external camera in a web conferencing app.
-Supported cameras: Z 7, Z 6, Z 5, Z 50, D6, D850, D780, D500, D7500, and D5600
+Supported cameras: all Z series cameras, D6, D5, D850, D810, D780, D750, D500, D7500, D7200, D5600, D5500, D5300, D3500
 
 ### KeyMission 360/170 Utility
 A companion app for the KeyMission 360 and KeyMission 170 cameras.
@@ -95,10 +101,11 @@ More info on the topic can be found on [nikonusa.com][2]. The default profiles a
 ### Wireless Transmitter Utility
 Use this application to adjust network settings and more for
 
-* UT-1 communications units
-* Z 7, Z 6, Z 50 built-in Wi-Fi
-* D5, D4S, and D4 Ethernet connections
+* all Z series cameras (compatible with built-in camera Wi-Fi)
+* D6 cameras (compatible with built-in camera Wi-Fi and Ethernet)
+* D5, D4S and D4 cameras (compatible with built-in camera Ethernet)
 * WT-7, WT-6, WT-5, and WT-4 wireless transmitters
+* UT-1 communication units (with or without WT-5)
 
 When a camera is connected via this application, it can be used to transfer images from the camera to the computer.
 
@@ -121,3 +128,4 @@ Formerly called *WT-4 Setup Utility*.
 [nikon-7]: https://downloadcenter.nikonimglib.com/en/products/165/Camera_Control_Pro_2.html
 [nikon-8]: https://downloadcenter.nikonimglib.com/en/products/548/Webcam_Utility.html
 [nikon-9]: https://www.nikonusa.com/en/Nikon-Products/Imaging-Software/nx-studio.page
+[nikon-10]: https://www.nikonusa.com/en/nikon-products/imaging-software/nx-tether.page
