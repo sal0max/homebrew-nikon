@@ -56,13 +56,15 @@ The Software includes the ViewNX-Movie Editor for movie processing and editing. 
 *Replaces ViewNX 2.*
 
 ### NX Tether
-NX Tether is a simple, streamlined tethering shooting utility for compatible Nikon cameras. Transfer every shot you take to a laptop or computer automatically in real-time. Import shots into your favorite editing software in the moment. Monitor and adjust key camera settings—all in a free software.
+NX Tether is a simple, streamlined tethering shooting utility for compatible Nikon cameras. Transfer every shot you take to a laptop or computer automatically in real-time. Import shots into your favorite editing software in the moment. Monitor and adjust key camera settings — all in a free software.
+
 Supported cameras: all Z series cameras, D780 and D6 DSLRs
 
 
 ### Webcam Utility
 Webcam Utility lets a Nikon camera be used as a webcam when connected to a computer via USB.
 The camera will function as a webcam when “Webcam Utility” is selected as an external camera in a web conferencing app.
+
 Supported cameras: all Z series cameras, D6, D5, D850, D810, D780, D750, D500, D7500, D7200, D5600, D5500, D5300, D3500
 
 ### KeyMission 360/170 Utility
