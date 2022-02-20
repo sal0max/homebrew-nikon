@@ -1,10 +1,10 @@
 cask "nx-studio" do
-  version "1.1.1"
-  sha256 "c3c2f80ea294a00d6dd048251c2a7064518a4f0265636fc664c99cf5041d4b7d"
+  version "1.1.2"
+  sha256 "7b9ec270a626794a5983d35eadc536c591aeb6ad7521f8e944cefd73ae6a6a47"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/212.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/215.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten
