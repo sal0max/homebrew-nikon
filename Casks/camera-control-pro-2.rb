@@ -1,10 +1,10 @@
 cask "camera-control-pro-2" do
-  version "2.34.2"
-  sha256 "7a5f58cb2bcbb09ef89dee211fb02d327c185d1b95d150f7d5b59507e89b03d4"
+  version "2.35.1"
+  sha256 "9101d7089d6a6b1c6ad4ae560981d0c91b867d811afc2bfd8733a0f675259e26"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/217.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/226.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten
