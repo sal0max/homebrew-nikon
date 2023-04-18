@@ -1,10 +1,10 @@
 cask "nikon-message-center-2" do
-  version "2.4.0"
-  sha256 "ffc201794f1ac77c72e7350fe537d4b38bc97a571c4bf01b6aedd75f36ba8171"
+  version "2.5.0"
+  sha256 "69134dbd67e84ffd1f811fc381ecc30c5fbeb89d9de918e9e927109785aac742"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/144.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/235.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten
