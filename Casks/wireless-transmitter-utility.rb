@@ -1,10 +1,10 @@
 cask "wireless-transmitter-utility" do
-  version "1.9.8"
-  sha256 "fdd9df197898f538c74f19f42d651f7ff0b36209b9c8fe70d7ea1c9915b74c67"
+  version "1.10.0"
+  sha256 "cec2453c380348abbe33fbf00b3d92bc104459b9403e7e6918614ced99e4c7d0"
 
   url do
     require "open-uri"
-    URI("https://downloadcenter.nikonimglib.com/en/download/sw/229.html").open do |landing_page|
+    URI("https://downloadcenter.nikonimglib.com/en/download/sw/237.html").open do |landing_page|
       content = landing_page.read
       content.scan(/id="for64".*href="(.*)".*\.dmg/m)
              .flatten
